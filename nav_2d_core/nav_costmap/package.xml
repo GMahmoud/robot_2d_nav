@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+    <name>nav_costmap</name>
+    <version>0.0.0</version>
+    <description>The nav_costmap package </description>
+    <maintainer email="mahmoud.ghorbel@hotmail.com">MG</maintainer>
+    <license>TODO</license>
+    <buildtool_depend>catkin</buildtool_depend>
+    
+    <build_depend>nav_grid</build_depend>
+    <build_depend>tf2_ros</build_depend>
+    <build_depend>costmap_2d</build_depend>
+
+    <run_depend>nav_grid</run_depend>
+    <run_depend>tf2_ros</run_depend>
+    <run_depend>costmap_2d</run_depend>
+</package>
